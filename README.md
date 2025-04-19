@@ -85,6 +85,14 @@ Discount Relationship to Profit:
 I observed a weak negative correlation (-0.22) between discounts and profits, indicating that higher discounts are typically associated with lower profits, although their impact is not significant.
 922 transactions with discounts of 50% or more resulted in losses.
 
+(the best region making profit):
+1- The West region is the most profitable region, with a total profit of 108,418.45.
+2- The East region is second, with a total profit of 91,522.79.
+3- The South region is third, with a total profit of 46,749.43.
+4- Finally, the Central region is the least profitable, with a total profit of 39,706.36.
+Summary:
+The West and East regions are the major contributors to profits, while the Central region generates the least profit of the four regions. This information can be used to make strategic decisions such as allocating resources or better targeting marketing campaigns.
+
  Sales over time:
 Analyzing sales trends over time (2014-2017) revealed a general upward trend in sales.
 Seasonal fluctuations were evident, with sales typically peaking at the end of each year (November/December) and declining at the beginning of the year (January/February).
