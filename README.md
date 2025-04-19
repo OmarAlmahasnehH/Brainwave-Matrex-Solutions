@@ -4,7 +4,7 @@ superstore sales data analysis
 Introduction: 
 
 I collected this dataset from Kaggle ([https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?select=Sample+-+Superstore.csv](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?select=Sample+-+Superstore.csv)) 
-which contains data for superstor sales.
+which contains data for superstore sales.
 
 data description:
 
