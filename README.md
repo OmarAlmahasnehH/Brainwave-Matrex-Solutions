@@ -1,15 +1,73 @@
 # Brainwave-Matrex-Solutions
 superstore sales data analysis
-Introduction
 
-This report presents the results of a comprehensive analysis conducted on department store sales data. The primary objective of this analysis was to understand sales performance, profitability, and customer loyalty, and to identify key trends and patterns within the dataset.
+Introduction
+I collected this dataset from Kaggle ([https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?select=Sample+-+Superstore.csv](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?select=Sample+-+Superstore.csv)) 
+which contains data for superstor sales.
+
+* data description:
+1- Row ID => Unique ID for each row.
+2- Order ID => Unique Order ID for each Customer.
+3- Order Date => Order Date of the product.
+4- Ship Date => Shipping Date of the Product.
+5- Ship Mode=> Shipping Mode specified by the Customer.
+6- Customer ID => Unique ID to identify each Customer.
+7- Customer Name => Name of the Customer.
+8- Segment => The segment where the Customer belongs.
+9- Country => Country of residence of the Customer.
+10- City => City of residence of of the Customer.
+11- State => State of residence of the Customer.
+12- Postal Code => Postal Code of every Customer.
+13- Region => Region where the Customer belong.
+14- Product ID => Unique ID of the Product.
+15- Category => Category of the product ordered.
+16- Sub-Category => Sub-Category of the product ordered.
+17- Product Name => Name of the Product
+18- Sales => Sales of the Product.
+19- Quantity => Quantity of the Product.
+20- Discount => Discount provided.
+21- Profit => Profit/Loss incurred.
+  
+== This report presents the results of a comprehensive analysis conducted on department store sales data. The primary objective of this analysis was to understand sales performance, profitability, and customer loyalty, and to identify key trends and patterns within the dataset.
 
 - Data Summarization and Cleaning
 
-The presented dataset underwent a comprehensive inspection and cleaning process. The cleaning steps included:
+The presented dataset underwent a comprehensive inspection and cleaning process.
+The cleaning steps included:
+1- I checked the data and it was free of duplicates and missing data
+2- (Delete unnecessary Columns): I removed columns such as Row ID and Postal Code because they were not necessary for analysis.
+3- (Data Type Conversion): I converted data types for columns such as Order Date and Shipped Date to DateTime objects, and converted classification columns to the Category type.
 
-(Delete unnecessary Columns): I removed columns such as Row ID and Postal Code because they were not necessary for analysis.
-(Data Type Conversion): I converted data types for columns such as Order Date and Shipped Date to DateTime objects, and converted classification columns to the Category type.
+== EDA:
+Sales:
+1- The average sales value was approximately 229.86.
+2- Sales values ​​varied widely, ranging from a minimum of 0.44 to a maximum of 22638.48.
+3- A high standard deviation (623.25) indicates a wide variation in sales values.
+Quantity:
+4- The average quantity ordered was approximately 3.79 units.
+5- Most orders contained small quantities, with 75% of orders containing 5 units or less.
+Discount:
+6- The average discount value was approximately 16%.
+7- Common discount values ​​appeared to be 0% and 20%.
+Profit:
+8- The average profit was approximately 28.66.
+9- Profit values ​​varied widely, including losses as large as -6599.98 and gains as large as 8399.98.
+10- The large standard deviation of profit (234.26) indicates a large variance in profit values.
+
+- Porpose of the analysis:
+1- What are the best-selling categories and products?
+
+2- Which categories and products generate the highest profits? Are there any products that generate losses?
+
+3- Which geographic regions/states generate the highest sales and profits?
+
+4- What is the relationship between discounts and profits? Do large discounts always lead to losses?
+
+5- How are sales distributed over time? Are there seasons or months that experience higher sales?
+
+6- How do different shipping channels (ship modes) perform in terms of sales and profits?
+
+7- Is there a relationship between order date and ship date and profitability or customer satisfaction?
 
 - Key Findings
 
