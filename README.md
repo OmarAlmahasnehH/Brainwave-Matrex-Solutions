@@ -58,7 +58,9 @@ The presented dataset underwent a comprehensive inspection and cleaning process.
 The cleaning steps included:
 
 1- I checked the data and it was free of duplicates and missing data
+
 2- (Delete unnecessary Columns): I removed columns such as Row ID and Postal Code because they were not necessary for analysis.
+
 3- (Data Type Conversion): I converted data types for columns such as Order Date and Shipped Date to DateTime objects, and converted classification columns to the Category type.
 
 == EDA:
