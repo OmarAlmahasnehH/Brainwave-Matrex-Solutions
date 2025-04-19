@@ -6,7 +6,8 @@ Introduction:
 I collected this dataset from Kaggle ([https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?select=Sample+-+Superstore.csv](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?select=Sample+-+Superstore.csv)) 
 which contains data for superstor sales.
 
-* data description:
+data description:
+
 1- Row ID => Unique ID for each row.
   
 2- Order ID => Unique Order ID for each Customer.
