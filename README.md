@@ -8,6 +8,8 @@ which contains data for superstore sales.
 
 data description:
 
+9994 Rows & 21 Columns
+
 1- Row ID => Unique ID for each row.
   
 2- Order ID => Unique Order ID for each Customer.
@@ -52,7 +54,7 @@ data description:
   
 == This report presents the results of a comprehensive analysis conducted on department store sales data. The primary objective of this analysis was to understand sales performance, profitability, and customer loyalty, and to identify key trends and patterns within the dataset.
 
-- Data Summarization and Cleaning
+- Data  Cleaning
 
 The presented dataset underwent a comprehensive inspection and cleaning process.
 The cleaning steps included:
@@ -63,7 +65,7 @@ The cleaning steps included:
 
 3- (Data Type Conversion): I converted data types for columns such as Order Date and Shipped Date to DateTime objects, and converted classification columns to the Category type.
 
-== EDA:
+== EDA:(Exploratory Data Analysis):
 
 Sales:
 
@@ -92,7 +94,19 @@ Profit:
 13- The large standard deviation of profit (234.26) indicates a large variance in profit values.
 
 - Porpose of the analysis:
-- 
+  
+1- Identify the best products and categories to enhance marketing focus.
+
+2- Analyze performance by region to guide sales and expansion strategies.
+
+3- Improve pricing and discount strategies based on their impact on profitability.
+
+4- Improve shipping and delivery operations by analyzing performance by shipping method.
+
+5- Understand sales time patterns to improve inventory management and seasonal planning.
+
+By answering the following quastions:
+
 1- What are the best-selling categories and products?
 
 2- Which categories and products generate the highest profits? Are there any products that generate losses?
